@@ -208,7 +208,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: order-service
-          image: jchen1101/order-service:v1 # Custom image for order service
+          image: jchen1101/order-service:latest # Custom image for order service
           ports:
             - containerPort: 3000 # Order service listens on this port
           env: # Environment variables for configuration
