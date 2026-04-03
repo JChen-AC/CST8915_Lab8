@@ -12,7 +12,7 @@
 
 ## Demo Video
 
-https://youtu.be/W_z5dqSRD4g
+https://youtu.be/URxu7ATntDY
 
 ---
 
@@ -42,6 +42,7 @@ Virtual Worker: https://github.com/JChen-AC/virtual-worker-L8
 
 ChatGPT and Claude was used to help research and set up the persistence storage. 
 
+Update the deployment file to use a volumeClaimTemplate setting the AccessMode to ReadWriteOnce and add storage. 
 
 ### Modification to RabbitMQ
 
